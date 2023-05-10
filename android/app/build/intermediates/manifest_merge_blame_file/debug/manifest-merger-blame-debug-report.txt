@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnnstarter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/fawadmahmood/.gradle/caches/transforms-3/7c073e4694620846a5d195f8782395ba/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/fawadmahmood/.gradle/caches/transforms-3/7c073e4694620846a5d195f8782395ba/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17
+18    <queries>
+18-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-20:15
+19
+20        <!-- Query open documents -->
+21        <intent>
+21-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:18
+22            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+22-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-79
+22-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-76
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.android.installreferrer:installreferrer:1.0] /Users/fawadmahmood/.gradle/caches/transforms-3/45337d3055c921aa1c29b26a5c086b20/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+26-->[com.android.installreferrer:installreferrer:1.0] /Users/fawadmahmood/.gradle/caches/transforms-3/45337d3055c921aa1c29b26a5c086b20/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+27
+28    <application
+28-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:6:5-24:19
+29        android:name="com.rnnstarter.MainApplication"
+29-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:7:7-38
+30        android:allowBackup="false"
+30-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:11:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] /Users/fawadmahmood/.gradle/caches/transforms-3/f5023587315ae5d45dfa644b30cb2697/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:9:7-41
+34        android:label="@string/app_name"
+34-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:8:7-39
+35        android:theme="@style/AppTheme"
+35-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:12:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:10:7-42
+37        <activity
+37-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/debug/AndroidManifest.xml:11:9-86
+38            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+38-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/debug/AndroidManifest.xml:11:19-83
+39            android:exported="false" />
+39-->[:react-native-navigation] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifest/reactNative63Debug/AndroidManifest.xml:12:13-37
+40        <activity
+40-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:13:7-23:18
+41            android:name="com.rnnstarter.MainActivity"
+41-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:14:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:16:9-86
+43            android:label="@string/app_name"
+43-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:15:9-41
+44            android:launchMode="singleTask"
+44-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:17:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:18:9-51
+46            <intent-filter>
+46-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:19:9-22:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:20:13-65
+47-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:20:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:21:13-73
+49-->/Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/android/app/src/main/AndroidManifest.xml:21:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-32:20
+54            android:name="expo.modules.filesystem.FileSystemFileProvider"
+54-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-74
+55            android:authorities="com.rnnstarter.FileSystemFileProvider"
+55-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-74
+56            android:exported="false"
+56-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+57            android:grantUriPermissions="true" >
+57-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-47
+58            <meta-data
+58-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:70
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-67
+60                android:resource="@xml/file_system_provider_paths" />
+60-->[:expo-file-system] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-67
+61        </provider>
+62
+63        <meta-data
+63-->[:expo-modules-core] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:89
+64            android:name="org.unimodules.core.AppLoader#react-native-headless"
+64-->[:expo-modules-core] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-79
+65            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+65-->[:expo-modules-core] /Users/fawadmahmood/Documents/GitHub/elevatorflings-react-native-/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-86
+66        <meta-data
+66-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/fawadmahmood/.gradle/caches/transforms-3/56fe5f78280213c262940d3e0dda46dc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+67            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+67-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/fawadmahmood/.gradle/caches/transforms-3/56fe5f78280213c262940d3e0dda46dc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+68            android:value="GlideModule" />
+68-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/fawadmahmood/.gradle/caches/transforms-3/56fe5f78280213c262940d3e0dda46dc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+69    </application>
+70
+71</manifest>
